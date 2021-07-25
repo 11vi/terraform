@@ -44,5 +44,6 @@ output "ECOND-TRAINING" {
   value = "var.TRAININGS[1]"
 }
 output "TRAINING-DETAILS" {
-  value = "AWS TIMING=${var.TRAINING-DETAILS[AES]}"
+  value = "AWS TIMING=${var.TRAINING-DETAILS[AES]
+  }"
 }
