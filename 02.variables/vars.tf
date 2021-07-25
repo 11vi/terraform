@@ -23,4 +23,13 @@ output "booleem" {
   value = "false"
 }
 
+variable "TRAINING" {
+  default = DevOps
 
+}
+variable "TRAINING" {
+  default = [DevOps,"aws"]
+}
+variable "TRAINING-DETA" {
+  default = {AWS   = "6AM ESTDevOps= 8AM EST "}
+}
