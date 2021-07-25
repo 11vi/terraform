@@ -37,13 +37,12 @@ variable "TRAINING-DETAILS" {
     DevOps ="8AM EST"
   }
 }
-output "TRAINING" {
+output "FIRST-TRAINING" {
   value = "var,TRAINING[0]"
 }
-output "ECOND-TRAINING" {
+output "SECOND-TRAINING" {
   value = "var.TRAININGS[1]"
 }
 output "TRAINING-DETAILS" {
-  value = "AWS TIMING=${var.TRAINING-DETAILS[AES]
-  }"
+  value = "AWS TIMING- ${var.TRAINING-DETAILS["AWS"]}"
 }
