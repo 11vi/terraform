@@ -27,9 +27,9 @@ variable "TRAINING" {
   default = DevOps
 
 }
-variable "TRAINING" {
-  default = [DevOps,"aws"]
+variable "TRAININGS" {
+  default = [devops,"aws"]
 }
-variable "TRAINING-DETA" {
+variable "TRAINING-DETAILS" {
   default = {AWS   = "6AM ESTDevOps= 8AM EST "}
 }
