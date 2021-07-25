@@ -25,16 +25,17 @@ output 'Boolean'{
 output "data-type" {
   value = "String=$(var.string) Number=$(var.number) Boolean=$(var.boolean"
 }
-
 variable "TRAINING" {
   default ="DevOps"
-
 }
 variable "TRAININGS" {
-  default = [devops,"aws"]
+  default = ["devops", "aws"]
 }
 variable "TRAINING-DETAILS" {
-  default = {AWS   = "6AM EST DevOps 8AM EST"
+  default = {
+    aws ="6AM EST"
+    DevOps ="8AM EST"
+  }
 }
 output "TRAINING" {
   value = "var,TRAINING[0]"
@@ -43,5 +44,5 @@ output "ECOND-TRAINING" {
   value = "var.TRAININGS[1]"
 }
 output "TRAINING-DETAILS" {
-  value = "AWS TIMING-${var.TRAINING-DETAILS[AES]}"
+  value = "AWS TIMING=${var.TRAINING-DETAILS[AES]}"
 }
