@@ -25,6 +25,7 @@ output "Boolean" {
 output "data-type" {
   value = "String=$(var.string) Number=$(var.number) Boolean=$(var.boolean"
 }
+
 variable "TRAINING" {
   default ="DevOps"
 }
