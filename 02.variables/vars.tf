@@ -19,21 +19,20 @@ output "string" {
 output "number" {
   value = 10
 }
-output 'boolees'{
+output 'Boolees'{
   value = "false"
 }
 
 variable "TRAINING" {
-  default = DevOps
+  default ="DevOps"
 
 }
 variable "TRAININGS" {
   default = [devops,"aws"]
 }
 variable "TRAINING-DETAILS" {
-  default = {AWS   = "6AM ESTDevOps= 8AM EST "}
+  default = {AWS   = "6AM EST DevOps 8AM EST"
 }
-
 output "TRAINING" {
   value = "var,TRAINING[0]"
 }
