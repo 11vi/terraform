@@ -13,4 +13,14 @@ variable "sample2" {}
 output "sample2" {
   value = "var.sample2"
 }
+output "string" {
+  value = "hello"
+}
+output "number" {
+  value = 10
+}
+output "booleem" {
+  value = "false"
+}
+
 
