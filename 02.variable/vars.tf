@@ -1,10 +1,11 @@
 variable "sample" {
-  default = Hello world
+  default = "Hello World"
 }
-output "sample" {
-  value = "var.samples"
 
+output "sample1" {
+  value = "var.samples"
 }
-output "sample" {
+
+output "sample2" {
   value = "$[var,sample]"
 }
