@@ -19,8 +19,11 @@ output "string" {
 output "number" {
   value = 10
 }
-output 'Boolees'{
+output 'Boolean'{
   value = "false"
+}
+output "data-type" {
+  value = "String=$(var.string) Number=$(var.number) Boolean=$(var.boolean"
 }
 
 variable "TRAINING" {
