@@ -33,3 +33,13 @@ variable "TRAININGS" {
 variable "TRAINING-DETAILS" {
   default = {AWS   = "6AM ESTDevOps= 8AM EST "}
 }
+
+output "TRAINING" {
+  value = "var,TRAINING[0]"
+}
+output "ECOND-TRAINING" {
+  value = "var.TRAININGS[1]"
+}
+output "TRAINING-DETAILS" {
+  value = "AWS TIMING-${var.TRAINING-DETAILS[AES]}"
+}
