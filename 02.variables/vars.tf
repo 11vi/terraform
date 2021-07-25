@@ -47,3 +47,6 @@ output "TRAINING-DETAILS" {
   value = "AWS TIMING - ${var.TRAINING-DETAILS["AWS"]}"
 
 }
+output "TRAINING" {
+  value = "var.TRAININGS"
+}
