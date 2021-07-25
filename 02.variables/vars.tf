@@ -19,7 +19,7 @@ output "string" {
 output "number" {
   value = 10
 }
-output 'Boolean'{
+output "Boolean" {
   value = "false"
 }
 output "data-type" {
