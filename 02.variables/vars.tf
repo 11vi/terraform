@@ -53,4 +53,15 @@ output "TRAINING" {
   value = "vars.TRAINING"
 }
 
+variable "ERUITS" {}
+
+output "FRUITS" {
+  value = "var.ERUITS"
+}
+
+variable "COUNTRY" {}
+
+output "COUNTRY" {
+  value = "VAR,COUNTRY"
+}
 
