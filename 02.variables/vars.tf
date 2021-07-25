@@ -47,16 +47,16 @@ output "SECOND-TRAINING" {
 }
 
 output "TRAINING-DETAILS" {
-  value = "AWS TIMING - ${var.TRAINING-DETAILS["AWS"]}"
+  value = "AWS TIMING -${var.TRAINING-DETAILS ["AWS"]}"
 }
 output "TRAINING" {
   value = "vars.TRAINING"
 }
 
-variable "ERUITS" {}
+variable "FRUITS" {}
 
 output "FRUITS" {
-  value = "var.ERUITS"
+  value = "var.FRUITS"
 }
 
 variable "COUNTRY" {}
