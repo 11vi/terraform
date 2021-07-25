@@ -5,7 +5,7 @@ output "sample" {
   value = "var.sample"
 }
 output "sample1" {
-  value = "${var.sample}"
+  value ="$[var.sample]"
 }
 
 variable "sample2" {}
@@ -19,7 +19,7 @@ output "string" {
 output "number" {
   value = 10
 }
-output "booleem" {
+output 'boolees'{
   value = "false"
 }
 
