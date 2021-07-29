@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="036b51ac-2859-412f-8595-e30d7eef4800" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/03.example/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/03.example/ec2.tf" afterDir="false" />
-    </list>
+    <list default="true" id="036b51ac-2859-412f-8595-e30d7eef4800" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -334,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627538909563</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ec2">
+      <created>1627539482084</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1627539482084</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
