@@ -35,7 +35,7 @@ output "ec2-attributes" {
   value = aws_instance.sample
 }
 
-provider "AWS" {
+provider "aws" {
   region ="us-east-1"
 }
 
